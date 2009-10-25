@@ -849,6 +849,8 @@ formatted_users GET  /users.:format  {:controller=>"users", :action=>"index"}
 
 TIP: You'll find that the output from +rake routes+ is much more readable if you widen your terminal window until the output lines don't wrap.
 
+TIP: As of Rails 2.3.4 you can filter the listed results by passing CONTROLLER=foo: +rake routes CONTROLLER=foo+
+
 h4. Testing Routes
 
 Routes should be included in your testing strategy (just like the rest of your application). Rails offers three "built-in assertions":http://api.rubyonrails.org/classes/ActionController/Assertions/RoutingAssertions.html designed to make testing routes simpler:
